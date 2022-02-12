@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital clock and stop watch</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="clock-frame">
+    <h1 class="title">Digital Clock</h1>
+    <span class="txt" id="txt">Time stopped</span>
+    <div class="main-row">
+      <div class="hour box">
+        <div id="hrs" class="mt">HR</div>
+        <div class="smt">Hours</div>
+      </div>
+
+      <div class="minutes box">
+        <div id="mts" class="mt">MM</div>
+        <div class="smt">Hours</div>
+      </div>
+      <div class="seconds box">
+        <div id="secs" class="mt">SS</div>
+        <div class="smt">Second</div>
+      </div>
+
+      <div class="ttype box">
+        <div id="ttype" class="mt">TT</div>
+      </div>
+
+    </div>
+    <div class="btn-row">
+      <button id="start">start</button>
+      <button id="stop">stop</button>
+    </div>
+    <h1 class="title">Stop Watch</h1>
+    <div id="stopwatch" class="title st2">00:00:00</div>
+    <div class="btn-row">
+      <button id="a" onclick="start_watch()">Start</button>
+      <button id="b" onclick="stop_watch()">Stop</button>
+      <button id="c" onclick="reset_watch()">Reset</button>
+    </div>
+  </div>
+  <div id="clock">hh:mm:ss</div>
+  <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+  <script src="1.js"></script>
+
+</body>
+
+</html>

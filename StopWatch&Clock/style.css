@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: #07091e;
+}
+.title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 53px;
+}
+.title .st2 {
+    margin-bottom: 43px;
+}
+.clock-frame {
+    width: 800px;
+    min-height: 300px;
+    color: #fff;
+    background-color: #14162b;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 74px;
+    text-align: center;
+}
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 46px;
+}
+.box {
+    background-color: #2c9bf4;
+    color: #fff;
+    width: 188px;
+    height: 185px;
+    text-align: center;
+    font-weight: 100;
+    padding: 32px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hour {
+    background-color: #2c9bf4;
+}
+.minutes {
+    background-color: #46118c;
+}
+.seconds {
+    background-color: #ff006a;
+}
+.mt {
+    font-weight: 100;
+    font-size: 68px;
+}
+.smt {
+    font-weight: 300;
+    padding: 10px 10px;
+    background-color: #1d86d9;
+}
+.minutes .smt {
+    background-color: #34145e;
+    border-top: 1px solid #3d0c7e;
+}
+.seconds .smt {
+    background-color: #ec0062;
+    border-top: 1px solid #d21765;
+}
+.ttype {
+    height: 58px;
+    width: 96px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ttype .mt {
+    font-weight: 100;
+    font-size: 31px;
+}
+.btn-row {
+    padding: 10px 20px 34px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+.btn-row button {
+    font-size: 27px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    padding: 7px 26px;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+}
+.btn-row button:hover {
+    opacity: 0.9;
+}
+button#start,
+#a {
+    background-color: #11c879;
+    color: #fff;
+}
+
+button#stop,
+#b {
+    background-color: #c62222;
+    color: #fff;
+}
+.txt {
+    display: none;
+}
+.show.txt {
+    display: block;
+}
